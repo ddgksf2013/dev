@@ -18,7 +18,7 @@
 [rewrite_local]
   
 # ～ 克拉壁纸 解锁会员权限（2022-12-10）@ddgksf2013
-^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll|picture\/search|catalog\/listAll|top\/list|picture\/date\?date) url script-response-body ClarityProCrack.js
+^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll|picture\/search|catalog\/listAll|top\/list|picture\/date\?date) url script-response-body https://github.com/ddgksf2013/dev/raw/main/ClarityProCrack.js
 
 [mitm] 
 
