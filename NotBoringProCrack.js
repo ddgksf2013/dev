@@ -20,7 +20,7 @@
   
 # ～ Not Boring 四件套[天气、习惯、日历、时间] 解锁会员权限（2022-12-03）@ddgksf2013
 ^https?:\/\/api-weather\.andy\.works\/v\d\/\w{13,18}$ url reject-dict
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/*) url script-echo-response NotBoringProCrack.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/*) url script-echo-response https://github.com/ddgksf2013/dev/raw/main/NotBoringProCrack.js
 
 [mitm] 
 
