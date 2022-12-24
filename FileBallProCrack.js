@@ -18,8 +18,8 @@
 [rewrite_local]
   
 # ～ FileBall解锁会员权限（2022-12-08）@ddgksf2013
-^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/*) url script-echo-response FileBallProCrack.js
-^https?:\/\/firebaseremoteconfig\.googleapis\.com\/v\d\/projects\/filebox url script-echo-response FileBallProCrack.js
+^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/*) url script-echo-response https://github.com/ddgksf2013/dev/raw/main/FileBallProCrack.js
+^https?:\/\/firebaseremoteconfig\.googleapis\.com\/v\d\/projects\/filebox url script-echo-response https://github.com/ddgksf2013/dev/raw/main/FileBallProCrack.js
 
 [mitm] 
 
