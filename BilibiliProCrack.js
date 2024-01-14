@@ -1,11 +1,11 @@
 /***********************************
 
-> 应用名称：Bilibili大会员通用破解模板
-> 软件版本：7.8.2
+> 应用名称：Bilibili大会员通用破解模板[墨鱼版]
+> 软件版本：7.63.0
 > 脚本作者：Cuttlefish
 > 微信账号：墨鱼手记
 > 解锁说明：解锁VIP番剧和影视
-> 更新时间：2022-12-03
+> 更新时间：2024-01-14
 > 通知频道：https://t.me/ddgksf2021
 > 贡献投稿：https://t.me/ddgksf2013_bot
 > 问题反馈：ddgksf2013@163.com
@@ -17,8 +17,8 @@
 
 [rewrite_local]
   
-# ～ Bilibili大会员（2022-12-05）@ddgksf2013
-^http[s]?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player\.(v3|v2|v1).Play(URL|View).*$ url script-request-header BilibiliProCrack.js
+# ～ Bilibili大会员（2024-01-14）@ddgksf2013
+^https?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player.*\.(v3|v2|v1).Play(URL|View|er).*$ url script-request-header BilibiliProCrack.js
 
 
 [mitm] 
