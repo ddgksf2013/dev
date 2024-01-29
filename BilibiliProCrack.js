@@ -41,5 +41,4 @@ modifiedHeaders['x-bili-locale-bin'] = '';
 modifiedHeaders['x-bili-network-bin'] = '';
 modifiedHeaders['x-bili-fawkes-req-bin'] = '';
 modifiedHeaders['x-bili-trace-id'] = '';
-modifiedHeaders['x-bili-exps-bin'] = '';
 $done({'headers': modifiedHeaders});
