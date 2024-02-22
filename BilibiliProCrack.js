@@ -5,7 +5,7 @@
 > 脚本作者：ddgksf2013
 > 微信账号：墨鱼手记
 > 解锁说明：解锁VIP番剧和影视
-> 更新时间：2024-01-14
+> 更新时间：2024-02-22
 > 通知频道：https://t.me/ddgksf2021
 > 贡献投稿：https://t.me/ddgksf2013_bot
 > 问题反馈：ddgksf2013@163.com
@@ -18,7 +18,7 @@
 [rewrite_local]
   
 # ～ Bilibili大会员（2024-01-14）@ddgksf2013
-^https?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player.*\.(v3|v2|v1).Play(URL|View|er).*$ url script-request-header BilibiliProCrack.js
+^https?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player.*\.(v3|v2|v1).*Play(URL|View|Conf).*$ url script-request-header BilibiliProCrack.js
 
 
 [mitm] 
