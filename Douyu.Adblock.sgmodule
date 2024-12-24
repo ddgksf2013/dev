@@ -11,7 +11,7 @@
 [URL Rewrite]
 ^https:\/\/rtbapi\.douyucdn\.cn\/japi\/dyadx - reject
 ^https:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo - reject
-^https:\/\/apiv2\.douyucdn\.cn\/japi\/entrance\/roomRes\/cdn\/m\/list - reject
+^https:\/\/apiv2\.douyucdn\.cn\/japi\/entrance\/roomRes - reject
 
 [Script]
 douyu.js =type=http-response, pattern=^https:\/\/apiv2\.douyucdn\.cn\/mgapi\/livenc\/home\/getRecV, script-path=https://raw.githubusercontent.com/ddgksf2013/dev/refs/heads/zd/douyu.js, requires-body=true, max-size=-1, timeout=60
