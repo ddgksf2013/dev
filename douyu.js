@@ -1,1 +1,0 @@
-let obj=JSON.parse($response.body);obj?.data?.rec_card&&(obj.data.rec_card=obj.data.rec_card.map(a=>(Array.isArray(a.card_banner)&&(a.card_banner=a.card_banner.filter(a=>!a.hasOwnProperty("ad"))),a))),Array.isArray(obj?.data?.rec_cont)&&(obj.data.rec_cont=obj.data.rec_cont.filter(a=>!a.hasOwnProperty("ad"))),$done({body:JSON.stringify(obj)});
